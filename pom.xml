@@ -11,7 +11,7 @@
     <properties>
         <cucumber.version>1.1.6</cucumber.version>
         <junit.version>4.11</junit.version>
-        <weld.version>2.1.2.Final</weld.version>
+        <weld.version>2.2.0.SP1</weld.version>
         <cdi-api.version>1.1</cdi-api.version>
         <selenium.version>2.41.0</selenium.version>
         <webbit.version>0.4.14</webbit.version>
@@ -37,16 +37,10 @@
             <version>${cdi-api.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.jboss.weld</groupId>
-            <artifactId>weld-core</artifactId>
-            <version>${weld.version}</version>
-        </dependency>
-        <!--dependency>
             <groupId>org.jboss.weld.se</groupId>
             <artifactId>weld-se</artifactId>
             <version>${weld.version}</version>
-        </dependency-->
-        <!-- END:weld -->
+        </dependency>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-server</artifactId>
